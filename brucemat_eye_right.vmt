@@ -1,0 +1,27 @@
+"EyeRefract"
+{
+	"$Iris"               "models/Alex-Fanatic/Arkham_Origins_Bruce_Wayne/BruceMAT_Eye_Right"			  // Iris color in RGB with cornea noise in A
+	"$AmbientOcclTexture" "models/Alex-Fanatic/Arkham_Origins_Bruce_Wayne/eye-extra"				  // Ambient occlusion in RGB, A unused
+                "$Envmap" "Engine/eye-reflection-cubemap-" 
+                "$CorneaTexture"      "models/Alex-Fanatic/Arkham_Origins_Bruce_Wayne/eye-cornea"                 // Special texture that has 2D cornea normal in RG and other data in BA
+            //"$lightwarptexture" "models/player/pyro/pyro_lightwarp" // This enables TF NPR lighting
+
+	"$Dilation" 0.75					// Default 0.5
+	"$ParallaxStrength" 0.25          // Default 0.25
+	"$CorneaBumpStrength" "1.0"			// Default 1.0
+
+	"$halflambert" "1"
+	"$nodecal" "1"
+
+                "$EyeballRadius" 0.5 
+                "$AmbientOcclColor" "[.2 .2 .2]" 
+                "$Dilation" 0.6 
+                "$ParallaxStrength" 0.25 
+                "$CorneaBumpStrength" 0.02
+                "$halflambert" 1
+                "$nodecal" 1
+                "$ambientocclusion" 1
+
+                "$RaytraceSphere" 1 
+                "$SphereTexkillCombo" 0 
+}
